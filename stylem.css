@@ -1,0 +1,22 @@
+*{
+   margin: 10px;
+   padding: 10px;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(206, 206, 192);
+}
+
+@media (max-width: 760px) {
+    body{
+        flex-direction: column;
+       
+    .body img{
+        flex: 0 100%;
+        max-width: 100%;
+    }
+        
+    }
+}
